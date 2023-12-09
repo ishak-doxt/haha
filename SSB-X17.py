@@ -1,5 +1,5 @@
 #!/usr/bin/python
-#Original written By Muhmmad Sarfraz
+#Original written By Muhmmad ISHAK
 
 import os,zlib
 
@@ -30,7 +30,7 @@ except ModuleNotFoundError:
 
 from urllib.request import Request, urlopen
 import os, requests, re,platform, sys, random, subprocess, threading, itertools,base64,uuid,zlib,re,json,uuid,subprocess,shutil,webbrowser,time,json,sys,random,datetime,time,re,subprocess,platform,string,json,time,re,random,sys,string,uuid
-from concurrent.futures import ThreadPoolExecutor as sarfrazssb
+from concurrent.futures import ThreadPoolExecutor as ISHAKssb
 from string import * 
 from random import randint
 from time import sleep as slp
@@ -85,9 +85,9 @@ logo =                                          """
 \033[1;37m   ##    ##    ##    ##    ##     ## 
 \033[1;37m    ######      ######     ########  
 \033[1;37m------------------------------------------------
-\033[1;37m Owner   :            Muhammad Sarfraz
-\033[1;37m Facebook:            Muhammad Sarfraz
-\033[1;37m Github  :            Sarfraz-Ssb
+\033[1;37m Owner   :            Muhammad ISHAK
+\033[1;37m Facebook:            Muhammad ISHAK
+\033[1;37m Github  :            ISHAK-Ssb
 \033[1;37m Version :            19.8
 \033[1;37m------------------------------------------------ """
 def clear():
@@ -105,7 +105,7 @@ def result(OKs,cps):
         input("Press enter to back SSB Menu ")
         exit()
 
-def sarfraz():   
+def ISHAK():   
     os.system('clear')
     print(logo)
     print(f'[1] File Crack')
@@ -172,7 +172,7 @@ def method_crack():
     #    methods.append('methodD')
    #     main_crack().crack(id)
     elif option =='0':
-        sarfraz()
+        ISHAK()
     else:
       print('\n Select Valid Option ...')
       time.sleep(2)
@@ -456,7 +456,7 @@ class main_crack():
             print(f'{S} Total IDs : %s ' % len(self.id))
             print(f'{S} Cracking Started...')
             print(47*"-")
-            with sarfrazssb(max_workers=30) as ssbworld:
+            with ISHAKssb(max_workers=30) as ssbworld:
                 for zsb in self.id:
                    try:
                        uid, name = zsb.split('|')
@@ -654,14 +654,14 @@ def cutter():
     print("Enter File Path / File Location \n")
     ssb = input('Put File Name :')
     print(" ")
-    sarfraz = input('Saving Put File Name :')
-    os.system('touch ' +sarfraz)
-    os.system('sort -r '+ssb+' | uniq > '+sarfraz)
+    ISHAK = input('Saving Put File Name :')
+    os.system('touch ' +ISHAK)
+    os.system('sort -r '+ssb+' | uniq > '+ISHAK)
     os.system('clear')
     print(logo)
     print("Removed Successful From File : " + ssb )
     print(47*'-')
-    print("File Saved To :" + sarfraz )
+    print("File Saved To :" + ISHAK )
     print(47*'-')
     input(f"{S} Press Enter To Back SSB Menu ")
     menu
@@ -835,13 +835,13 @@ def cutter():
     print("Enter File Path / File Location \n")
     ssb = input('Put File Name:')
     print(" ")
-    sarfraz = input('Saving Put File Name:')
-    os.system('touch ' +sarfraz)
-    os.system('sort -r '+ssb+' | uniq > '+sarfraz)
+    ISHAK = input('Saving Put File Name:')
+    os.system('touch ' +ISHAK)
+    os.system('sort -r '+ssb+' | uniq > '+ISHAK)
     os.system('clear')
     print(logo)
     print("Removed Successful From File: " + ssb )
-    print("New File Saved:" + sarfraz )
+    print("New File Saved:" + ISHAK )
     print(47*'-')
     input(f"{S} Press Enter To Back SSB Menu ")
     SSB(allkey)       
@@ -851,4 +851,4 @@ def removef():
         SSB(allkey)            
  
 
-sarfraz()
+ISHAK()
